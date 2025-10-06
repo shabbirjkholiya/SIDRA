@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All-in-One Service - SIDRA</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Inter', sans-serif;
+      color: #1A3A59;
+    }
+
+    .sidra-blue {
+      color: #1a3a59;
+    }
+
+    .sidra-btn {
+      background: #1a3a59;
+      color: #fff;
+      border-radius: 0.7rem;
+      padding: 0.75rem 2rem;
+      font-weight: 600;
+      transition: 0.2s;
+      border: none;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+
+    .sidra-btn:hover {
+      background: #11273d;
+      color: #fff;
+    }
+
+    h1, h2 {
+      font-weight: 700;
+    }
+
+    .rounded-img {
+      border-radius: 1rem;
+      box-shadow: 0 5px 18px rgba(26, 58, 89, 0.13);
+      object-fit: cover;
+      width: 100%;
+      height: 220px;
+    }
+
+    .modal-content {
+      border-radius: 1rem;
+      border: none;
+    }
+
+    .form-label {
+      font-weight: 600;
+      color: #1a3a59;
+    }
+
+    .footer {
+      background-color: #1a3a59;
+      color: #f8f9fa;
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+
+    .footer a {
+      color: #f8f9fa;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer a:hover {
+      color: #fff;
+    }
+
+    .service-highlight {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 3px 10px rgba(26, 58, 89, 0.1);
+    }
+
+    .service-highlight h4 {
+      color: #1a3a59;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .service-highlight i {
+      font-size: 2rem;
+      color: #1a3a59;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="newind.html">
+        <i class="fas fa-couch fa-2x me-2 sidra-blue"></i>
+        <div class="d-flex flex-column">
+          <span class="fw-bold sidra-blue" style="font-size: 1.4rem; line-height: 1;">SIDRA</span>
+          <small class="text-dark" style="font-weight: 500; font-size: 0.6rem; letter-spacing: 0.5px; line-height: 1;">SOFA & DEEP CLEANING</small>
+        </div>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">All Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container py-5">
+    <h1 class="mb-4 sidra-blue text-center">Complete All-in-One Cleaning Package</h1>
+    <p class="text-center lead mb-5">Get everything cleaned in one comprehensive service! Save time and money with our complete cleaning solution.</p>
+
+    <div class="row g-4 mb-5">
+      <div class="col-md-6">
+        <p>
+          At <strong>SIDRA</strong>, we offer a comprehensive <strong>All-in-One Cleaning Package</strong> that covers all your cleaning needs under one roof. This complete service includes sofa deep cleaning, carpet cleaning, chair cleaning, home deep cleaning, and office deep cleaning — all at a special bundled price.
+        </p>
+        <p>
+          Why choose multiple services when you can get everything done together? Our all-in-one package is perfect for homes, offices, or commercial spaces that need a complete makeover. Whether you're moving into a new place, preparing for a special event, or simply want a thorough spring cleaning, we've got you covered.
+        </p>
+
+        <!-- <div class="service-highlight">
+          <i class="fas fa-couch"></i>
+          <h4>Sofa Deep Cleaning</h4>
+          <p class="mb-0">Deep extraction and disinfecting for all types of sofas. We restore freshness, remove stains, and eliminate odors using eco-friendly products.</p>
+        </div>
+
+        <div class="service-highlight">
+          <i class="fas fa-rug"></i>
+          <h4>Carpet Cleaning</h4>
+          <p class="mb-0">Thorough dust removal, stain treatment, and deep cleaning for all carpet types. We bring back the original vibrancy and softness of your carpets.</p>
+        </div>
+
+        <div class="service-highlight">
+          <i class="fas fa-chair"></i>
+          <h4>Chair Cleaning</h4>
+          <p class="mb-0">Professional cleaning for dining chairs, office chairs, and specialty seating. We handle fabric, leather, and all other materials with care.</p>
+        </div>
+
+        <div class="service-highlight">
+          <i class="fas fa-house-chimney"></i>
+          <h4>Home Deep Cleaning</h4>
+          <p class="mb-0">Complete top-to-bottom cleaning including kitchen, bathrooms, bedrooms, living areas, and all hard-to-reach spots for a spotless home.</p>
+        </div>
+
+        <div class="service-highlight">
+          <i class="fas fa-building"></i>
+          <h4>Office Deep Cleaning</h4>
+          <p class="mb-0">Professional workspace cleaning including desks, conference rooms, pantry areas, and common spaces to maintain a productive environment.</p>
+        </div> -->
+
+        <p class="mt-4">
+          Our expert team uses advanced equipment and safe, eco-friendly cleaning solutions that are child-safe and pet-friendly. We guarantee exceptional results with minimal disruption to your daily routine.
+        </p>
+        <p>
+          <strong>Benefits of choosing our All-in-One Package:</strong>
+        </p>
+        <ul>
+          <li>Save up to 30% compared to booking services separately</li>
+          <li>Single point of contact for all your cleaning needs</li>
+          <li>Coordinated scheduling for minimal inconvenience</li>
+          <li>Consistent quality across all services</li>
+          <li>Dedicated team familiar with your entire space</li>
+          <li>Priority booking and flexible scheduling</li>
+        </ul>
+        <p>
+          Whether you need a one-time deep clean or regular maintenance, our all-in-one package delivers exceptional value and peace of mind. Experience the convenience of comprehensive cleaning with SIDRA.
+        </p>
+        <p><strong>Transform your entire space with one complete cleaning solution!</strong></p>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-3">
+          <div class="col-6">
+            <img src="c1.jpg" class="rounded-img" alt="Carpet cleaning service" />
+          </div>
+          <div class="col-6">
+            <img src="c2.jpg" class="rounded-img" alt="Sofa cleaning service" />
+          </div>
+          <div class="col-6">
+            <img src="c5.jpg" class="rounded-img" alt="Chair cleaning service" />
+          </div>
+          <div class="col-6">
+            <img src="c6.jpg" class="rounded-img" alt="Home cleaning service" />
+          </div>
+          <div class="col-6">
+            <img src="c4.jpg" class="rounded-img" alt="Office cleaning service" />
+          </div>
+          <div class="col-6">
+            <img src="c7.jpg" class="rounded-img" alt="Complete cleaning package" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="button" class="sidra-btn px-5" data-bs-toggle="modal" data-bs-target="#bookingModal">Book All-in-One Package Now</button>
+    </div>
+  </section>
+
+  <div
+    class="modal fade"
+    id="bookingModal"
+    tabindex="-1"
+    aria-labelledby="bookingModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-4">
+        <div class="modal-header border-0">
+          <h5 class="modal-title sidra-blue fw-bold" id="bookingModalLabel">Book All-in-One Cleaning Package</h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+
+        <form id="bookingForm">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required placeholder="Enter your full name" />
+          </div>
+
+          <div class="mb-3">
+            <label for="address" class="form-label">Address</label>
+            <textarea class="form-control" id="address" rows="2" required placeholder="Enter your address"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" required placeholder="City name" />
+          </div>
+
+          <div class="mb-3">
+            <label for="propertyType" class="form-label">Property Type</label>
+            <select class="form-select" id="propertyType" required>
+              <option selected disabled value="">Choose property type...</option>
+              <option value="Residential - Small (1-2 BHK)">Residential - Small (1-2 BHK)</option>
+              <option value="Residential - Medium (3 BHK)">Residential - Medium (3 BHK)</option>
+              <option value="Residential - Large (4+ BHK)">Residential - Large (4+ BHK)</option>
+              <option value="Office - Small">Office - Small</option>
+              <option value="Office - Medium">Office - Medium</option>
+              <option value="Office - Large">Office - Large</option>
+              <option value="Commercial Space">Commercial Space</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="date" class="form-label">Preferred Date</label>
+            <input type="date" class="form-control" id="date" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email (optional)</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" />
+          </div>
+
+          <div class="mb-3">
+            <label for="notes" class="form-label">Additional Notes (optional)</label>
+            <textarea class="form-control" id="notes" rows="2" placeholder="Any specific requirements or areas of focus?"></textarea>
+          </div>
+
+          <div class="text-center">
+            <button type="submit" class="sidra-btn w-100">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="mb-0">© 2025 SIDRA Sofa & Deep Cleaning. All rights reserved.</p>
+      <p class="mb-0">Developed & Designed by Shabbir J. Kholiya</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const dateInput = document.getElementById("date");
+      const today = new Date().toISOString().split("T")[0];
+      dateInput.setAttribute("min", today);
+    });
+
+    document.getElementById("bookingForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const name = encodeURIComponent(document.getElementById("name").value.trim());
+      const address = encodeURIComponent(document.getElementById("address").value.trim());
+      const city = encodeURIComponent(document.getElementById("city").value.trim());
+      const propertyType = encodeURIComponent(document.getElementById("propertyType").value);
+      const date = encodeURIComponent(document.getElementById("date").value);
+      const email = encodeURIComponent(document.getElementById("email").value.trim());
+      const notes = encodeURIComponent(document.getElementById("notes").value.trim());
+
+      let message = `*SIDRA All-in-One Cleaning Package Booking*%0A%0A`;
+      message += `👤 Name: ${name}%0A`;
+      message += `📍 Address: ${address}%0A`;
+      message += `🏙️ City: ${city}%0A`;
+      message += `🏢 Property Type: ${propertyType}%0A`;
+      message += `📅 Preferred Date: ${date}%0A`;
+      if (email) message += `📧 Email: ${email}%0A`;
+      if (notes) message += `📝 Notes: ${notes}%0A`;
+      message += `%0A✨ Service: Complete All-in-One Cleaning Package (Sofa + Carpet + Chair + Home + Office)`;
+
+      const phone = "918866151216";
+      const whatsappURL = `https://wa.me/${phone}?text=${message}`;
+      window.open(whatsappURL, "_blank");
+
+      const modalEl = document.getElementById("bookingModal");
+      const modal = bootstrap.Modal.getInstance(modalEl);
+      if (modal) modal.hide();
+
+      this.reset();
+    });
+  </script>
+</body>
+</html>
